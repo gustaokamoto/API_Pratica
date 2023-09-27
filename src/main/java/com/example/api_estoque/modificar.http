@@ -1,0 +1,8 @@
+PUT http://localhost:8080/api/transacoes/atualizar/5
+Content-Type: application/json
+
+{
+  "descricao": "Pagamento Teste",
+  "valor": 45.99,
+  "tipo_transacao": "PIX"
+}

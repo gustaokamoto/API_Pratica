@@ -1,0 +1,8 @@
+POST http://localhost:8080/api/transacoes/inserir
+Content-Type: application/json
+
+{
+  "descricao": "Pagamento Parati",
+  "valor": 5000.00,
+  "tipo_transacao": "PIX"
+}
